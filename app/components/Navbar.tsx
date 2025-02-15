@@ -31,7 +31,7 @@ const Navbar = () => {
           {/* Language Selector */}
           <select
             value={locale}
-            onChange={(e) => setLocale(e.target.value)}
+            onChange={(e) => setLocale(e.target.value as "en" | "es")}
             className="border border-gray-300 p-1 rounded-lg"
           >
             <option value="en">🇺🇸 English</option>
@@ -64,7 +64,7 @@ const Navbar = () => {
           {/* Mobile Language Selector */}
           <select
             value={locale}
-            onChange={(e) => setLocale(e.target.value)}
+            onChange={(e) => setLocale(e.target.value as "en" | "es")}
             className="block w-full px-4 py-2 border-t border-gray-200"
           >
             <option value="en">🇺🇸 English</option>
