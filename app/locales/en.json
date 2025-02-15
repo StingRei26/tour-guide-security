@@ -1,0 +1,41 @@
+{
+    "navbar": {
+      "about": "About",
+      "services": "Services",
+      "contact": "Contact",
+      "language": "Language"
+    },
+    "home": {
+      "title": "Explore Medellín Safely with Expert Security",
+      "cta": "View Services"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Welcome to SafeMedellín, your trusted partner for secure and guided travel experiences in Medellín."
+    },
+    "services": {
+      "title": "Our Security & Tour Services",
+      "description": "We provide private security escorts and guided tours to keep you safe while exploring Medellín.",
+      "private_security": "Private Security Escort",
+      "private_security_desc": "Stay safe with a personal security escort as you explore the city.",
+      "vip_tours": "VIP Guided Tours",
+      "vip_tours_desc": "Experience Medellín’s best locations with a knowledgeable and secure guide.",
+      "nightlife_security": "Nightlife Security",
+      "nightlife_security_desc": "Enjoy Medellín’s nightlife safely with our security team by your side.",
+      "learn_more": "Learn More"
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "description": "Contact us for bookings, inquiries, or to learn more about our security escort services.",
+      "whatsapp": "WhatsApp",
+      "whatsapp_desc": "Message us directly on WhatsApp.",
+      "call": "Call Us",
+      "call_desc": "Available for urgent security inquiries.",
+      "email": "Email Us",
+      "email_desc": "Send us an email for business inquiries.",
+      "chat": "Chat on WhatsApp",
+      "call_now": "Call Now",
+      "send_email": "Send Email"
+    }
+  }
+  

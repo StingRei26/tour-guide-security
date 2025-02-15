@@ -1,0 +1,41 @@
+{
+    "navbar": {
+      "about": "Sobre Nosotros",
+      "services": "Servicios",
+      "contact": "Contacto",
+      "language": "Idioma"
+    },
+    "home": {
+      "title": "Explora Medellín con Seguridad y Protección",
+      "cta": "Ver Servicios"
+    },
+    "about": {
+      "title": "Sobre Nosotros",
+      "description": "Bienvenido a SafeMedellín, tu socio confiable para experiencias de viaje seguras y guiadas en Medellín."
+    },
+    "services": {
+      "title": "Nuestros Servicios de Seguridad y Tours",
+      "description": "Proporcionamos escoltas de seguridad privada y visitas guiadas para garantizar su seguridad mientras explora Medellín.",
+      "private_security": "Escolta de Seguridad Privada",
+      "private_security_desc": "Manténgase seguro con un escolta de seguridad personal mientras explora la ciudad.",
+      "vip_tours": "Tours VIP Guiados",
+      "vip_tours_desc": "Experimente los mejores lugares de Medellín con un guía seguro y experto.",
+      "nightlife_security": "Seguridad Nocturna",
+      "nightlife_security_desc": "Disfrute de la vida nocturna de Medellín con seguridad con nuestro equipo de seguridad.",
+      "learn_more": "Más Información"
+    },
+    "contact": {
+      "title": "Póngase en Contacto",
+      "description": "Contáctenos para reservas, consultas o para obtener más información sobre nuestros servicios de escolta de seguridad.",
+      "whatsapp": "WhatsApp",
+      "whatsapp_desc": "Envíenos un mensaje directamente en WhatsApp.",
+      "call": "Llámenos",
+      "call_desc": "Disponible para consultas de seguridad urgentes.",
+      "email": "Correo Electrónico",
+      "email_desc": "Envíenos un correo electrónico para consultas comerciales.",
+      "chat": "Chatear en WhatsApp",
+      "call_now": "Llamar Ahora",
+      "send_email": "Enviar Correo"
+    }
+  }
+  

@@ -1,27 +1,28 @@
-import Navbar from "./components/Navbar";
+"use client"; // ✅ Add this to ensure it's a client component
+
+import Navbar from "@/app/components/Navbar";
+import { useLanguage } from "@/app/context/LanguageContext";
 import Link from "next/link";
 
 export default function Home() {
+  const { translations } = useLanguage(); // ✅ Now it will work without server errors
+
   return (
     <div>
-      {/* Navigation Bar */}
       <Navbar />
-
-      {/* Hero Section */}
       <header className="h-screen flex flex-col justify-center items-center bg-gray-100 px-4 text-center">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
-          Explore Medellín Safely with Expert Security
+          {translations.home.title}
         </h1>
-        <p className="mt-4 text-lg text-gray-600 max-w-2xl">
-          Private security and guided tours to ensure your safety and an unforgettable experience in Medellín.
-        </p>
         <Link
           href="/services"
           className="mt-6 bg-blue-500 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-600 transition"
         >
-          View Services
+          {translations.home.cta}
         </Link>
       </header>
     </div>
   );
 }
+
+
