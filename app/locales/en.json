@@ -22,7 +22,16 @@
       "vip_tours_desc": "Experience Medellín’s best locations with a knowledgeable and secure guide.",
       "nightlife_security": "Nightlife Security",
       "nightlife_security_desc": "Enjoy Medellín’s nightlife safely with our security team by your side.",
-      "learn_more": "Learn More"
+      "learn_more": "Learn More",
+      "options": {
+        "armed_security_guard": "Armed Security Guard",
+        "motorcycle_escort": "Motorcycle Escort",
+        "standard_car_escort": "Standard Car Escort",
+        "luxury_car_escort": "Luxury Car Escort",
+        "suv_escort": "SUV Escort",
+        "premium_suv_escort": "Premium SUV Escort",
+        "high_end_vehicle_escort": "High-End Vehicle Escort"
+      }
     },
     "contact": {
       "title": "Get in Touch",

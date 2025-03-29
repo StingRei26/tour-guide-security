@@ -2,29 +2,29 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu } from "lucide-react";
-import { useLanguage } from "@/app/context/LanguageContext"; // ✅ Import Language Context
+import { useLanguage } from "@/app/context/LanguageContext";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const { locale, setLocale, translations } = useLanguage(); // ✅ Get translations & locale
+  const { locale, setLocale, translations } = useLanguage();
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md p-4 z-50">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo / Brand */}
         <Link href="/">
-          <span className="text-2xl font-bold text-gray-800">SafeMedellín</span>
+          <span className="text-2xl font-bold text-primary">SecureXperience</span>
         </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
-          <Link href="/about" className="hover:text-blue-500">
+          <Link href="/about" className="hover:text-primary">
             {translations.navbar.about}
           </Link>
-          <Link href="/services" className="hover:text-blue-500">
+          <Link href="/services" className="hover:text-primary">
             {translations.navbar.services}
           </Link>
-          <Link href="/contact" className="hover:text-blue-500">
+          <Link href="/contact" className="hover:text-primary">
             {translations.navbar.contact}
           </Link>
 
@@ -60,7 +60,6 @@ const Navbar = () => {
           <Link href="/contact" className="block px-4 py-2 hover:bg-gray-100">
             {translations.navbar.contact}
           </Link>
-
           {/* Mobile Language Selector */}
           <select
             value={locale}

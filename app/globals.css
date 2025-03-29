@@ -19,3 +19,11 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.bg-primary {
+  @apply bg-purple-800;
+}
+
+.text-primary {
+  @apply text-purple-800;
+}
