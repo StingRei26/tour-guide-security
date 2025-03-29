@@ -75,7 +75,7 @@
 import Navbar from "@/app/components/Navbar";
 import { useLanguage } from "@/app/context/LanguageContext";
 import Link from "next/link";
-import Image from "next/image";
+
 
 export default function Home() {
   const { translations } = useLanguage();
