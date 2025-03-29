@@ -10,9 +10,16 @@
     "cta": "Ver Servicios"
   },
   "about": {
-    "title": "Sobre Nosotros",
-    "description": "Bienvenido a SafeMedellín, tu socio confiable para experiencias de viaje seguras y guiadas en Medellín."
-  },
+  "title": "Sobre Nosotros",
+  "description": "Conozca más sobre SecureXperience y nuestra misión de ofrecer servicios de seguridad confiables en Medellín.",
+  "detail_1": "SecureXperience es una empresa con sede en Medellín que se especializa en servicios de seguridad privada.",
+  "detail_2": "Ofrecemos servicios de escolta bilingües y planes de seguridad personalizados para garantizar su seguridad.",
+  "detail_3": "Nuestro equipo de profesionales altamente capacitados está dedicado a brindar un servicio y protección excepcionales.",
+  "meet_the_team": "Conoce al Equipo",
+  "team_description": "Profesional de seguridad con más de 22 años de servicio militar, especializado en seguridad y protección de alto nivel.",
+  "team_stats": "Altura: 6'3\", Peso: 230 libras."
+}
+,
   "services": {
     "title": "Nuestros Servicios de Seguridad y Tours",
     "description": "Proporcionamos escoltas de seguridad privada y visitas guiadas para garantizar su seguridad mientras explora Medellín.",
@@ -31,7 +38,8 @@
       "suv_escort": "Escolta en SUV",
       "premium_suv_escort": "Escolta en SUV Premium",
       "high_end_vehicle_escort": "Escolta en Vehículo de Alta Gama"
-    }
+    },
+    "pricing_note": "Los precios indicados son para turnos de 10 horas. Las horas adicionales suponen un aumento del 10% por hora. Los horarios de los turnos se pueden negociar para satisfacer sus necesidades."
   },
   "contact": {
     "title": "Póngase en Contacto",
@@ -45,5 +53,9 @@
     "chat": "Chatear en WhatsApp",
     "call_now": "Llamar Ahora",
     "send_email": "Enviar Correo"
+  },
+
+  "footer": {
+    "copyright": "Todos los derechos reservados."
   }
 }

@@ -9,10 +9,17 @@
       "title": "Explore Medellín Safely with Expert Security",
       "cta": "View Services"
     },
-    "about": {
-      "title": "About Us",
-      "description": "Welcome to SafeMedellín, your trusted partner for secure and guided travel experiences in Medellín."
-    },
+   "about": {
+  "title": "About Us",
+  "description": "Learn more about SecureXperience and our mission to provide reliable security services in Medellín.",
+  "detail_1": "SecureXperience is a Medellín-based company specializing in private security services.",
+  "detail_2": "We offer bilingual escort services and customizable security plans to ensure your safety.",
+  "detail_3": "Our team of highly trained professionals is dedicated to providing exceptional service and protection.",
+  "meet_the_team": "Meet The Team",
+  "team_description": "Experienced security professional with over 22 years of military service, specializing in high-level security and protection.",
+  "team_stats": "Height: 6'3\", Weight: 230 lbs."
+}
+,
     "services": {
       "title": "Our Security & Tour Services",
       "description": "We provide private security escorts and guided tours to keep you safe while exploring Medellín.",
@@ -31,7 +38,8 @@
         "suv_escort": "SUV Escort",
         "premium_suv_escort": "Premium SUV Escort",
         "high_end_vehicle_escort": "High-End Vehicle Escort"
-      }
+      },
+      "pricing_note": "The prices listed are for 10-hour shifts. Additional hours incur a 10% increase per hour. Shift schedules can be negotiated to accommodate your requirements."
     },
     "contact": {
       "title": "Get in Touch",
@@ -45,6 +53,9 @@
       "chat": "Chat on WhatsApp",
       "call_now": "Call Now",
       "send_email": "Send Email"
+    },
+    "footer": {
+      "copyright": "All rights reserved."
     }
   }
   

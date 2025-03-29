@@ -12,9 +12,12 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md p-4 z-50">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo / Brand */}
+   
         <Link href="/">
-          <span className="text-2xl font-bold text-primary">SecureXperience</span>
-        </Link>
+  <span className="text-2xl font-bold text-black">SecureXperience</span>
+</Link>
+
+
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
@@ -32,7 +35,7 @@ const Navbar = () => {
           <select
             value={locale}
             onChange={(e) => setLocale(e.target.value as "en" | "es")}
-            className="border border-gray-300 p-1 rounded-lg"
+            className=""
           >
             <option value="en">🇺🇸 English</option>
             <option value="es">🇪🇸 Español</option>
