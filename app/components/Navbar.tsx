@@ -145,7 +145,7 @@ const Navbar = () => {
             <select
               value={locale}
               onChange={(e) => setLocale(e.target.value as "en" | "es")}
-              className="bg-white text-black border border-gray-300 rounded px-2 py-1"
+              className="bg-white text-black rounded px-2 py-1"
             >
               <option value="en">🇺🇸 English</option>
               <option value="es">🇪🇸 Español</option>
@@ -194,7 +194,7 @@ const Navbar = () => {
               setLocale(e.target.value as "en" | "es");
               setIsOpen(false); // close menu after selecting language
             }}
-            className="block w-full px-4 py-2 border-t border-gray-200 bg-white text-black"
+            className="block w-full px-4 py-2 border-gray-200 bg-white text-black"
           >
             <option value="en">🇺🇸 English</option>
             <option value="es">🇪🇸 Español</option>
