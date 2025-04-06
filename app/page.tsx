@@ -29,11 +29,10 @@ export default function Home() {
         {/* Button */}
         <Link
   href="/services"
-  className="mt-6 mb-10 sm:mb-12 bg-black text-primary px-6 py-3 rounded-lg text-lg hover:bg-black hover:text-white transition"
+  className="mt-6 mb-10 sm:mb-16 bg-black text-white px-6 py-3 rounded-lg text-lg hover:bg-white hover:text-black transition"
 >
   {translations.home.cta}
 </Link>
-
       </header>
     </div>
   );
