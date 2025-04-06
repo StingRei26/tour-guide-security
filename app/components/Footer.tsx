@@ -13,7 +13,7 @@ export default function Footer() {
         {/* Contact Info */}
         <div className="flex space-x-8 items-center mb-4 md:mb-0">
           <a
-            href="https://wa.me/573001234567"
+            href="https://wa.me/573007748290"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-1 hover:underline"
