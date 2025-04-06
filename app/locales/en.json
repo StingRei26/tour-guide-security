@@ -52,7 +52,14 @@
       "email_desc": "Send us an email for business inquiries.",
       "chat": "Chat on WhatsApp",
       "call_now": "Call Now",
-      "send_email": "Send Email"
+      "send_email": "Send Email",
+      "form": {
+        "name_placeholder": "Your name",
+        "email_placeholder": "Your email",
+        "message_placeholder": "Your message",
+        "submit_button": "Send Message",
+        "success_message": "✅ Message sent! Our team will get back to you as soon as possible."
+      }
     },
     "footer": {
       "copyright": "All rights reserved."

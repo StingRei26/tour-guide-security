@@ -52,7 +52,14 @@
     "email_desc": "Envíenos un correo electrónico para consultas comerciales.",
     "chat": "Chatear en WhatsApp",
     "call_now": "Llamar Ahora",
-    "send_email": "Enviar Correo"
+    "send_email": "Enviar Correo",
+    "form": {
+      "name_placeholder": "Tu nombre",
+      "email_placeholder": "Tu correo electrónico",
+      "message_placeholder": "Tu mensaje",
+      "submit_button": "Enviar Mensaje",
+      "success_message": "✅ ¡Mensaje enviado! Nuestro equipo te responderá lo antes posible."
+    }
   },
 
   "footer": {

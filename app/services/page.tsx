@@ -83,10 +83,10 @@ export default function Services() {
   return (
     <div>
       <Navbar />
-      <section className="min-h-screen bg-gradient-to-b from-primary to-black text-center py-12 px-4 pt-36">
-        <h1 className="text-4xl font-bold text-white">
-          {translations.services.title}
-        </h1>
+      <section className="min-h-screen bg-gradient-to-b from-background via-background to-primary text-center py-12 px-4 pt-32">
+  <h1 className="text-4xl font-bold text-white">
+    {translations.services.title}
+  </h1>
         <p className="text-white mt-4 max-w-2xl mx-auto text-lg">
           {translations.services.description}
         </p>
@@ -107,7 +107,7 @@ export default function Services() {
               <p className="text-xl font-semibold mt-2 text-black">{option.price}</p>
               <Link
                 href="/contact"
-                className="mt-4 bg-primary text-white py-2 px-4 rounded-lg hover:bg-purple-700 transition"
+                className="mt-4 bg-primary text-white py-2 px-4 rounded-lg hover:bg-black transition"
               >
                 {translations.services.learn_more}
               </Link>

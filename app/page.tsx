@@ -83,7 +83,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <header className="h-screen flex flex-col justify-center items-center bg-gradient-to-b from-primary to-black text-white px-4 text-center">
+      <header className="h-screen flex flex-col justify-center items-center bg-gradient-to-b from-background via-background to-primary text-white px-4 text-center">
   
 
         {/* Title */}
