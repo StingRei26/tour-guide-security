@@ -12,7 +12,8 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <header className="h-screen flex flex-col justify-center items-center bg-gradient-to-b from-background via-background to-primary text-white px-4 text-center">
+      <header className="h-screen flex flex-col justify-center items-center bg-gradient-to-b from-background via-background to-primary text-white px-4 text-center pt-32">
+
         {/* Title */}
         <h1 className="text-4xl md:text-5xl font-bold mb-6">
           {translations.home.title}

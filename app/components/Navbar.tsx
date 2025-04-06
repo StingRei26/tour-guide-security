@@ -142,7 +142,7 @@ const Navbar = () => {
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden focus:outline-none"
         >
-          <Menu className="w-6 h-6" />
+          <Menu className="w-6 h-6 text-black" />
         </button>
       </div>
 
